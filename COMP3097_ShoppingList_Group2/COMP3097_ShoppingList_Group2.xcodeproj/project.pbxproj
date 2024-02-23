@@ -14,6 +14,7 @@
 		18A4C7252B85456600F898FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C7242B85456600F898FB /* Assets.xcassets */; };
 		18A4C7282B85456600F898FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C7262B85456600F898FB /* LaunchScreen.storyboard */; };
 		1A805EDD2B882DC900CE6343 /* ListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A805EDC2B882DC900CE6343 /* ListsTableViewController.swift */; };
+		FD9528DF2B88D56900A823EE /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9528DE2B88D56800A823EE /* AddProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		18A4C7272B85456600F898FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A4C7292B85456600F898FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A805EDC2B882DC900CE6343 /* ListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsTableViewController.swift; sourceTree = "<group>"; };
+		FD9528DE2B88D56800A823EE /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				18A4C71D2B85456100F898FB /* SceneDelegate.swift */,
 				18A4C71F2B85456100F898FB /* ViewController.swift */,
 				18A4C7212B85456100F898FB /* Main.storyboard */,
+				FD9528DE2B88D56800A823EE /* AddProductViewController.swift */,
 				1A805EDC2B882DC900CE6343 /* ListsTableViewController.swift */,
 				18A4C7242B85456600F898FB /* Assets.xcassets */,
 				18A4C7262B85456600F898FB /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				18A4C7202B85456100F898FB /* ViewController.swift in Sources */,
 				18A4C71C2B85456100F898FB /* AppDelegate.swift in Sources */,
+				FD9528DF2B88D56900A823EE /* AddProductViewController.swift in Sources */,
 				18A4C71E2B85456100F898FB /* SceneDelegate.swift in Sources */,
 				1A805EDD2B882DC900CE6343 /* ListsTableViewController.swift in Sources */,
 			);
