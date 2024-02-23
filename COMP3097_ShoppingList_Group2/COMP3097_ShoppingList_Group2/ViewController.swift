@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        label.text = item
+//        label.text = item
         
         // Do any additional setup after loading the view.
     }
