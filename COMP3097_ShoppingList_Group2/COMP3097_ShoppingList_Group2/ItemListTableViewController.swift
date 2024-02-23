@@ -9,6 +9,10 @@ import UIKit
 
 class ItemListTableViewController: UITableViewController {
 
+    @IBOutlet weak var itemTableView: UITableView!
+    
+    var data = ["Chocolate", "Apple", "Steak"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
