@@ -9,6 +9,9 @@ import UIKit
 
 class ListsTableViewController: UITableViewController {
     
+    var userId: Int64?
+    var userFirstName: String?
+    
     var data = [
                 "Recent":["Groceries", "Cleaning", "Birthday Supplies"],
                 "Last Week": ["Groceries", "Errand"]
