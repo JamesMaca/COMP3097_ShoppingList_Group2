@@ -114,7 +114,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O20-M8-3Az" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="864.8854961832061" y="-1131.6901408450706"/>
+            <point key="canvasLocation" x="1791.6030534351144" y="-1131.6901408450706"/>
         </scene>
         <!--Add Product View Controller-->
         <scene sceneID="wxI-u4-f9e">
@@ -348,7 +348,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DZf-mv-Vjy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2493.8931297709923" y="-1132.3943661971832"/>
+            <point key="canvasLocation" x="3420.6106870229005" y="-1132.3943661971832"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Zl2-7m-4fM">
@@ -361,11 +361,6 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
-                    <connections>
-                        <segue destination="4BZ-Ta-Yeh" kind="relationship" relationship="viewControllers" id="aCd-H5-M3w"/>
-                        <segue destination="ZIX-jG-zWO" kind="relationship" relationship="viewControllers" id="A0L-8t-fmH"/>
-                        <segue destination="hy3-fk-OOT" kind="relationship" relationship="viewControllers" id="L85-DZ-7zt"/>
-                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EP0-bi-XQ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -406,10 +401,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="New List" id="z1W-6E-mVN"/>
+                    <navigationItem key="navigationItem" id="U6C-9c-A1L"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x43-cI-P5b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="855.72519083969462" y="-446.47887323943667"/>
+            <point key="canvasLocation" x="1782.4427480916029" y="-446.47887323943667"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lz9-GU-7Fc">
@@ -467,9 +463,6 @@
                                 <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Home Page"/>
-                                <connections>
-                                    <segue destination="uYk-t8-Jus" kind="show" id="wVS-zs-ZjF"/>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_image" translatesAutoresizingMaskIntoConstraints="NO" id="LzE-fh-9Qi">
                                 <rect key="frame" x="76" y="209" width="240" height="128"/>
@@ -563,7 +556,7 @@
                         <outlet property="LoginButton" destination="EvF-z7-7Tu" id="Wb2-v2-oBI"/>
                         <outlet property="LoginFailedLabel" destination="Exo-lW-OeM" id="VXI-Hs-xZn"/>
                         <outlet property="PassEntry" destination="dYx-jE-RIh" id="DcS-k7-L0O"/>
-                        <segue destination="4BZ-Ta-Yeh" kind="show" identifier="loginToListsSegue" id="GPQ-Nf-Tqr"/>
+                        <segue destination="xDd-ZQ-wJE" kind="show" identifier="loginToListsSegue" id="GPQ-Nf-Tqr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BaH-fT-5Hp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -863,13 +856,35 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PYL-Xh-Ube" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1693.8931297709923" y="-1132.3943661971832"/>
+            <point key="canvasLocation" x="2620.6106870229005" y="-1132.3943661971832"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Fqr-d8-DmN">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="xDd-ZQ-wJE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="b6I-x3-obE"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="BNs-Rw-GQW"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="k1O-HF-Wu3">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="4BZ-Ta-Yeh" kind="relationship" relationship="viewControllers" id="xdZ-ph-h65"/>
+                        <segue destination="ZIX-jG-zWO" kind="show" id="eoD-fZ-no7"/>
+                        <segue destination="ZIX-jG-zWO" kind="relationship" relationship="viewControllers" id="XeJ-Mb-QbX"/>
+                        <segue destination="hy3-fk-OOT" kind="relationship" relationship="viewControllers" id="8tF-G0-EGp"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H4x-ms-g69" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="864.8854961832061" y="-1131.6901408450706"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="GDT-LV-IpD"/>
+        <segue reference="fKq-wl-kfu"/>
+        <segue reference="XeJ-Mb-QbX"/>
         <segue reference="T9h-3C-mXG"/>
-        <segue reference="GPQ-Nf-Tqr"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrowtriangle.down.square.fill" catalog="system" width="128" height="114"/>

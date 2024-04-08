@@ -46,7 +46,7 @@ class LoginViewController: UIViewController {
                 
             override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
                 if segue.identifier == "loginToListsSegue" {
-                    if let destinationVC = segue.destination as? ListsTableViewController {
+                    if let destinationVC = segue.destination as? TabViewController {
                         destinationVC.userId = userId
                         destinationVC.userFirstName = userFirstName
                     }

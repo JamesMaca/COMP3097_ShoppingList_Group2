@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array/>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLogoImage</string>
+			<key>relativePath</key>
+			<string>./logo_image.imageset</string>
+			<key>swiftSymbol</key>
+			<string>logo</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

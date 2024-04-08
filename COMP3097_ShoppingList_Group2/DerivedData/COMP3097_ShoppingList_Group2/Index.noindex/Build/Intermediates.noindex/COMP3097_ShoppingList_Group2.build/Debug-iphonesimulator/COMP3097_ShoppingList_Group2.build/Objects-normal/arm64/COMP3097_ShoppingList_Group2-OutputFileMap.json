@@ -1,0 +1,39 @@
+{
+  "" : {
+    "dependencies" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData/COMP3097_ShoppingList_Group2/Index.noindex/Build/Intermediates.noindex/COMP3097_ShoppingList_Group2.build/Debug-iphonesimulator/COMP3097_ShoppingList_Group2.build/Objects-normal/arm64/COMP3097_ShoppingList_Group2-master.d",
+    "diagnostics" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData/COMP3097_ShoppingList_Group2/Index.noindex/Build/Intermediates.noindex/COMP3097_ShoppingList_Group2.build/Debug-iphonesimulator/COMP3097_ShoppingList_Group2.build/Objects-normal/arm64/COMP3097_ShoppingList_Group2-master.dia",
+    "emit-module-dependencies" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData/COMP3097_ShoppingList_Group2/Index.noindex/Build/Intermediates.noindex/COMP3097_ShoppingList_Group2.build/Debug-iphonesimulator/COMP3097_ShoppingList_Group2.build/Objects-normal/arm64/COMP3097_ShoppingList_Group2-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData/COMP3097_ShoppingList_Group2/Index.noindex/Build/Intermediates.noindex/COMP3097_ShoppingList_Group2.build/Debug-iphonesimulator/COMP3097_ShoppingList_Group2.build/Objects-normal/arm64/COMP3097_ShoppingList_Group2-master-emit-module.dia",
+    "swift-dependencies" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData/COMP3097_ShoppingList_Group2/Index.noindex/Build/Intermediates.noindex/COMP3097_ShoppingList_Group2.build/Debug-iphonesimulator/COMP3097_ShoppingList_Group2.build/Objects-normal/arm64/COMP3097_ShoppingList_Group2-master.swiftdeps"
+  },
+  "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/AddProductViewController.swift" : {
+
+  },
+  "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/AppDelegate.swift" : {
+
+  },
+  "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/Database.swift" : {
+
+  },
+  "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/ListsTableViewController.swift" : {
+
+  },
+  "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/LoginViewController.swift" : {
+
+  },
+  "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/RegisterViewController.swift" : {
+
+  },
+  "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/SceneDelegate.swift" : {
+
+  },
+  "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/TabViewController.swift" : {
+
+  },
+  "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/ViewController.swift" : {
+
+  },
+  "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData/COMP3097_ShoppingList_Group2/Index.noindex/Build/Intermediates.noindex/COMP3097_ShoppingList_Group2.build/Debug-iphonesimulator/COMP3097_ShoppingList_Group2.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  }
+}
