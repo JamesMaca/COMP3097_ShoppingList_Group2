@@ -10,14 +10,23 @@ import SQLite
 
 class Database{
     private var db: Connection?
-
+    
+    // USER TABLE
     private let usersTable = Table("users")
     private let id = Expression<Int64>("id")
     private let firstName = Expression<String>("firstName")
     private let lastName = Expression<String>("lastName")
     private let email = Expression<String>("email")
     private let password = Expression<String>("password")
-
+    
+    //LIST TABLE
+    private let listTable = Table("lists")
+    private let listID = Expression<Int64>("listID")
+    private let uID = Expression<Int64>("uID")
+    private let listName = Expression<String>("listName")
+    
+    
+    
     init() {
         do {
             let path = NSSearchPathForDirectoriesInDomains(
@@ -25,13 +34,18 @@ class Database{
             ).first!
             db = try Connection("\(path)/db.sqlite3")
 
-            createTable()
+            createTables()
         } catch {
             print("Unable to initialize database: \(error)")
         }
     }
+    
+    private func createTables(){
+        createUserTable()
+        createListTable()
+    }
 
-    private func createTable() {
+    private func createUserTable() {
         let createTable = usersTable.create { table in
             table.column(id, primaryKey: .autoincrement)
             table.column(firstName)
@@ -84,6 +98,53 @@ class Database{
             print("Login query failed: \(error)")
         }
         return nil
+    }
+    
+    
+//    LIST TABLE STUFF *************************************************************
+    private func createListTable(){
+        let createTable = listTable.create { table in
+            table.column(listID, primaryKey: .autoincrement)
+            table.column(listName)
+            table.column(uID)
+//            table.foreignKey(uID, references: usersTable, id, delete: .cascade)
+        }
+        
+        do{
+            try db?.run(createTable)
+            print("Created list table!")
+        }catch {
+            print("Unable to create a list table: \(error)")
+        }
+    }
+    
+    func addList(userID: Int64, listName: String) -> Bool {
+        do{
+            let insert = listTable.insert(uID <- userID, self.listName <- listName)
+            
+            try db?.run(insert)
+            print("List added successfully")
+            return true
+        } catch {
+            print("Error adding list: \(error)")
+            return false
+        }
+    }
+    
+    func getLists() -> [String]? {
+        var listNames = [String]()
+        
+        do {
+            let query = listTable.select(listName).order(listName.asc)
+            for list in try db!.prepare(query) {
+                listNames.append(list[listName])
+            }
+        } catch {
+            print("Failed to get lists: \(error)")
+            return nil
+        }
+        
+        return listNames
     }
 
 }

@@ -18,15 +18,11 @@ class TabViewController: UITabBarController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // This method is used to pass data from the LoginViewController to this TabViewController
+    func setUserData(userId: Int64, userFirstName: String) {
+        self.userId = userId
+        self.userFirstName = userFirstName
+        print("TAB User ID: \(userId)")
+        print("TAB User First Name: \(userFirstName)")
     }
-    */
-
 }

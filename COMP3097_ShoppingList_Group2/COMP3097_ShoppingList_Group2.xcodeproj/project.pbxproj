@@ -15,6 +15,7 @@
 		18A4C7282B85456600F898FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A4C7262B85456600F898FB /* LaunchScreen.storyboard */; };
 		1A0AE2F22BC4A2F800AC12A2 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0AE2F12BC4A2F800AC12A2 /* TabViewController.swift */; };
 		1A805EDD2B882DC900CE6343 /* ListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A805EDC2B882DC900CE6343 /* ListsTableViewController.swift */; };
+		1AF8B4AB2BC4BE2400708884 /* NewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF8B4AA2BC4BE2400708884 /* NewListViewController.swift */; };
 		F759B74A2BB0DF1E0025E327 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F759B7492BB0DF1E0025E327 /* LoginViewController.swift */; };
 		F759B74C2BB151BF0025E327 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F759B74B2BB151BF0025E327 /* RegisterViewController.swift */; };
 		F759B74F2BB15A180025E327 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = F759B74E2BB15A180025E327 /* SQLite */; };
@@ -33,6 +34,7 @@
 		18A4C7292B85456600F898FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A0AE2F12BC4A2F800AC12A2 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		1A805EDC2B882DC900CE6343 /* ListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsTableViewController.swift; sourceTree = "<group>"; };
+		1AF8B4AA2BC4BE2400708884 /* NewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListViewController.swift; sourceTree = "<group>"; };
 		F759B7492BB0DF1E0025E327 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F759B74B2BB151BF0025E327 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F759B7502BB15A840025E327 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				F759B74B2BB151BF0025E327 /* RegisterViewController.swift */,
 				F759B7492BB0DF1E0025E327 /* LoginViewController.swift */,
 				FD9528DE2B88D56800A823EE /* AddProductViewController.swift */,
+				1AF8B4AA2BC4BE2400708884 /* NewListViewController.swift */,
 				1A805EDC2B882DC900CE6343 /* ListsTableViewController.swift */,
 				18A4C7242B85456600F898FB /* Assets.xcassets */,
 				18A4C7262B85456600F898FB /* LaunchScreen.storyboard */,
@@ -167,6 +170,7 @@
 				F759B74A2BB0DF1E0025E327 /* LoginViewController.swift in Sources */,
 				18A4C7202B85456100F898FB /* ViewController.swift in Sources */,
 				F759B74C2BB151BF0025E327 /* RegisterViewController.swift in Sources */,
+				1AF8B4AB2BC4BE2400708884 /* NewListViewController.swift in Sources */,
 				18A4C71C2B85456100F898FB /* AppDelegate.swift in Sources */,
 				FD9528DF2B88D56900A823EE /* AddProductViewController.swift in Sources */,
 				18A4C71E2B85456100F898FB /* SceneDelegate.swift in Sources */,
