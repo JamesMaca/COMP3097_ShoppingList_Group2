@@ -9,6 +9,9 @@ import UIKit
 
 class NewListViewController: UIViewController {
     
+    var userId: Int64?
+    var userFirstName: String?
+    
     @IBOutlet weak var newListName: UITextField!
     
     @IBOutlet weak var CreateList: UIButton!
@@ -17,7 +20,12 @@ class NewListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if let userId = userId, let userFirstName = userFirstName {
+            print("NEW LISTS User ID: \(userId)")
+            print("NEW LISTS User First Name: \(userFirstName)")
+        } else {
+            print("User ID or First Name is nil")
+        }
         // Do any additional setup after loading the view.
     }
     
@@ -27,16 +35,22 @@ class NewListViewController: UIViewController {
             return
         }
         
-        let userID: Int64 = 123
+        let userID: Int64 = userId!
         
-        if db.addList(userID: userID, listName: listName){
+        if db.addList(userID: userID, listName: listName) {
             print("List added")
-            listsTableViewController?.tableView.reloadData()
-            dismiss(animated: true, completion: nil)
-        }else{
+            listsTableViewController?.tableView.reloadData() // Refresh the list data
+            dismiss(animated: true) {
+                if let tabController = self.tabBarController as? TabViewController {
+                    // Navigate back to the lists page
+                    tabController.selectedIndex = 0
+                }
+            }
+        } else {
             print("Failed to add list")
         }
-        
     }
+    
+    
     
 }

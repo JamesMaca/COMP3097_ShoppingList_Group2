@@ -107,7 +107,7 @@ class Database{
             table.column(listID, primaryKey: .autoincrement)
             table.column(listName)
             table.column(uID)
-//            table.foreignKey(uID, references: usersTable, id, delete: .cascade)
+            table.foreignKey(uID, references: usersTable, id, delete: .cascade)
         }
         
         do{
@@ -131,20 +131,19 @@ class Database{
         }
     }
     
-    func getLists() -> [String]? {
+    func getLists(forUserID userID: Int64) -> [String]? {
         var listNames = [String]()
         
         do {
-            let query = listTable.select(listName).order(listName.asc)
+            let query = listTable.filter(uID == userID).select(listName)
             for list in try db!.prepare(query) {
                 listNames.append(list[listName])
             }
+            return listNames // Return the list names
         } catch {
             print("Failed to get lists: \(error)")
             return nil
         }
-        
-        return listNames
     }
 
 }

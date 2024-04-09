@@ -49,19 +49,23 @@ class LoginViewController: UIViewController {
 //                    if let destinationVC = segue.destination as? TabViewController {
 //                        destinationVC.userId = userId
 //                        destinationVC.userFirstName = userFirstName
+//                        print("from login userid: \(String(describing: userId))")
+//                        print("from login First Name: \(String(describing: userFirstName))")
 //                    }
 //                }
 //            }
 //    
-//            override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//                if segue.identifier == "loginToListSegue" {
-//                    if let tabBarController = segue.destination as? TabViewController {
-//                        if let userId = userId, let userFirstName = userFirstName {
-//                            tabBarController.setUserData(userId: userId, userFirstName: userFirstName)
-//                        }
-//                    }
-//                }
-//            }
+            override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+                if segue.identifier == "loginToListsSegue" {
+                    if let tabBarController = segue.destination as? TabViewController {
+                        if let userId = userId, let userFirstName = userFirstName {
+                            tabBarController.setUserData(userId: userId, userFirstName: userFirstName)
+                            print("from login userid: \(String(describing: userId))")
+                            print("from login First Name: \(String(describing: userFirstName))")
+                        }
+                    }
+                }
+            }
 
 
 }
