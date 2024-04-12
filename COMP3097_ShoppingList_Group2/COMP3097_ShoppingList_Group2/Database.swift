@@ -25,6 +25,13 @@ class Database{
     private let uID = Expression<Int64>("uID")
     private let listName = Expression<String>("listName")
     
+    //PRODUCT OR ITEM TABLE
+    private let productTable = Table("products")
+    private let productID = Expression<Int64>("productID")
+    private let productName = Expression<String>("productName")
+    private let productCategory = Expression<String>("productCategory")
+    private let productPrice = Expression<Double>("productPrice")
+    
     
     
     init() {
@@ -145,6 +152,56 @@ class Database{
             return nil
         }
     }
+    
+    
+    //    PRODUCT/ITEM LIST TABLE STUFF *************************************************************
+    private func createProductTable() {
+        let createTable = productTable.create { table in
+            table.column(productID, primaryKey: .autoincrement)
+            table.column(listID)
+            table.column(productName)
+            table.column(productCategory)
+            table.column(productPrice)
+            table.foreignKey(listID, references: listTable, listID, delete: .cascade)
+        }
+        
+        do {
+            try db?.run(createTable)
+            print("Created product table!")
+        } catch {
+            print("Unable to create product table: \(error)")
+        }
+    }
+
+    func addProductToList(listID: Int64, productName: String, productCategory: String, productPrice: Double) -> Bool {
+        do {
+            let insert = productTable.insert(self.listID <- listID, self.productName <- productName, self.productCategory <- productCategory, self.productPrice <- productPrice)
+            try db?.run(insert)
+            print("Product added successfully")
+            return true
+        } catch {
+            print("Error adding product: \(error)")
+            return false
+        }
+    }
+
+    // Method to retrieve products for a specific list
+    func getProductsForList(listID: Int64) -> [Product]? {
+        var products = [Product]()
+        
+        do {
+            let query = productTable.filter(self.listID == listID)
+            for productRow in try db!.prepare(query) {
+                let product = Product(id: productRow[productID], name: productRow[productName], category: productRow[productCategory], price: productRow[productPrice])
+                products.append(product)
+            }
+            return products
+        } catch {
+            print("Failed to get products for list: \(error)")
+            return nil
+        }
+    }
+
 
 }
 
