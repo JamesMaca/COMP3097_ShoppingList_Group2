@@ -1,0 +1,4 @@
+module SQLite {
+header "SQLite-Swift.h"
+export *
+}
