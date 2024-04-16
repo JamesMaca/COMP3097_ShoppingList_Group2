@@ -108,14 +108,20 @@ extension ItemListViewController: UITableViewDataSource{
         
         
         // display the stored information to all the labels in the cell
-        cell.itemName.text = item.name
+        /*cell.itemName.text = item.name
         cell.itemCategory.text = item.category
-        cell.itemPrice.text = "$\(strPrice)"
+        cell.itemPrice.text = "$\(strPrice)"*/
+        
+        cell.itemName.text = "Test"
+        cell.itemCategory.text = "test"
+        cell.itemPrice.text = "Test"
+
         
         return cell;
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print("\(data.count)")
         return data.count
     }
 }

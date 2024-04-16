@@ -15,7 +15,6 @@ class TabViewController: UITabBarController {
     
     var listsTableViewController: ListsTableViewController?
     var newListController: NewListViewController?
-    var AddProductViewController: AddProductViewController?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,15 +35,19 @@ class TabViewController: UITabBarController {
         if let listsVC = viewControllers?.first as? ListsTableViewController {
             listsVC.userId = userId
             listsVC.userFirstName = userFirstName
+            /*
             print("in tab setting list User ID: \(userId)")
             print("in tab setting list User First Name: \(userFirstName)")
+             */
         }
         
         if let newListVC = viewControllers?[1] as? NewListViewController {
             newListVC.userId = userId
             newListVC.userFirstName = userFirstName
+            /*
             print("in tab setting newlist User ID: \(userId)")
             print("in tab setting newlist User First Name: \(userFirstName)")
+             */
         } else {
             print("NewListViewController not found")
         }

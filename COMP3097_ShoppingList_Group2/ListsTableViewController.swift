@@ -100,11 +100,10 @@ class ListsTableViewController: UITableViewController {
         
         let item = listData[index.row]
         
-        if let dest = segue.destination as? ItemListViewController {
+        if let dest = segue.destination as? ProductTabViewController {
             
             dest.listID = item.id
             dest.listName = item.name
-            
             dest.userID = userId
         }
     }
