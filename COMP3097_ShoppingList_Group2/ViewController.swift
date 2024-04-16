@@ -4,6 +4,9 @@
 //
 //  Created by Tech on 2024-02-20.
 //
+//  Ritchel Rey Etchorre | 101358231
+//      -> Created the Splash Screen
+//      -> Created the About Us Screen
 
 import UIKit
 

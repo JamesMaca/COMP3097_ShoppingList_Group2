@@ -4,6 +4,7 @@
 //
 //  Created by James MacAloney on 2024-04-08.
 //
+//  James MacAloney 101362896
 
 import UIKit
 
@@ -11,8 +12,6 @@ class TabViewController: UITabBarController {
 
     var userId: Int64?
     var userFirstName: String?
-    
-    var listId: Int64?
     
     var listsTableViewController: ListsTableViewController?
     var newListController: NewListViewController?
@@ -53,13 +52,5 @@ class TabViewController: UITabBarController {
         print("TAB User ID: \(userId)")
         print("TAB User First Name: \(userFirstName)")
     }
-    
-    /*func setListData(listID: Int64){
-        self.listId = listID
-        
-        if let productVC = viewControllers?.first as? AddProductViewController{
-            productVC.listID = listId
-        }
-    }*/
 
 }

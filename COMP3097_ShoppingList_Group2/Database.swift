@@ -4,6 +4,13 @@
 //
 //  Created by Stefan Kepinski on 2024-03-24.
 //
+//  Stefans Kepinski | 101356431
+//  James MacAloney | 101362896
+//      -> Added the list table stuff including the functions to query data from database
+//  Ritchel Rey Etchorre | 101358231
+//      -> Added the product stuff including the functions to query data from database
+//  Vincent Nhar Calonzo | 101272540
+//      -> Modified getList() function to include fetching the id of the list
 
 import Foundation
 import SQLite
@@ -41,9 +48,6 @@ class Database{
                 .documentDirectory, .userDomainMask, true
             ).first!
             db = try Connection("\(path)/db.sqlite3")
-            
-            //debug
-            print("DATABASE PATH: \(path)")
             
             createTables()
         } catch {

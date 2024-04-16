@@ -4,6 +4,12 @@
 //
 //  Created by James MacAloney on 2024-02-22.
 //
+//  James MacAloney | 101362896
+//  Vincent Nhar Calonzo | 101272540
+//     -> Modified the fetchList to be able to fetch both name and id of the list
+//     -> Modified the variables to accomodate the changes in fetchList functions
+//     -> Modified the prepare function to navigate to another screen with consistent data
+//
 import UIKit
 
 class ListsTableViewController: UITableViewController {
