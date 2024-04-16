@@ -1,0 +1,11 @@
+Target dependency graph (6 targets)
+Target 'COMP3097_ShoppingList_Group2' in project 'COMP3097_ShoppingList_Group2'
+➜ Explicit dependency on target 'SQLite' in project 'SQLite.swift'
+Target 'SQLite' in project 'SQLite.swift'
+➜ Explicit dependency on target 'SQLite' in project 'SQLite.swift'
+Target 'SQLite' in project 'SQLite.swift' (no dependencies)
+Target 'COMP3097_ShoppingList_Group2' in project 'COMP3097_ShoppingList_Group2'
+➜ Explicit dependency on target 'SQLite' in project 'SQLite.swift'
+Target 'SQLite' in project 'SQLite.swift'
+➜ Explicit dependency on target 'SQLite' in project 'SQLite.swift'
+Target 'SQLite' in project 'SQLite.swift' (no dependencies)

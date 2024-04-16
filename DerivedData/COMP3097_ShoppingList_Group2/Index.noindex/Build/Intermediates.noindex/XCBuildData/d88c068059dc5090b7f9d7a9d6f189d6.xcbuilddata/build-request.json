@@ -1,0 +1,60 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "e41e8d79484c56c8b12033dbb94813aca5b126b22ba07c632e06d1773930ebe8"
+    }
+  ],
+  "containerPath" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData/COMP3097_ShoppingList_Group2/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData/COMP3097_ShoppingList_Group2/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData/COMP3097_ShoppingList_Group2/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData/COMP3097_ShoppingList_Group2/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData/COMP3097_ShoppingList_Group2/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData/COMP3097_ShoppingList_Group2/Build/Products",
+      "pchPath" : "/Users/james/GBC/Year 3/sem 2/COMP 3097 - Mobile App Dev 2 (iOS)/project v2/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/DerivedData/COMP3097_ShoppingList_Group2/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

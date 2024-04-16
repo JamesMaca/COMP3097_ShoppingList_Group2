@@ -1,0 +1,77 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "5763d61265eeb0c78547944306beaab5fb4595be4764a4cde59694f13dcd7034"
+build_start_time: [1712616486, 409092000]
+build_end_time: [1712616488, 108563000]
+inputs:
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Backup.swift"
+  : [1712613698, 654998756]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Blob.swift"
+  : [1712613698, 655139922]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Connection+Aggregation.swift"
+  : [1712613698, 655342254]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Connection+Attach.swift"
+  : [1712613698, 655631003]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Connection+Pragmas.swift"
+  : [1712613698, 655735919]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Connection.swift"
+  : [1712613698, 655858377]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Errors.swift"
+  : [1712613698, 655983002]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Result.swift"
+  : [1712613698, 656076835]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/SQLiteFeature.swift"
+  : [1712613698, 656173459]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/SQLiteVersion.swift"
+  : [1712613698, 656266042]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Statement.swift"
+  : [1712613698, 656429875]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/URIQueryParameter.swift"
+  : [1712613698, 656528041]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Core/Value.swift"
+  : [1712613698, 656630499]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Extensions/Cipher.swift"
+  : [1712613698, 656798332]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Extensions/FTS4.swift"
+  : [1712613698, 656950540]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Extensions/FTS5.swift"
+  : [1712613698, 657043956]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Extensions/RTree.swift"
+  : [1712613698, 657283997]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Foundation.swift"
+  : [1712613698, 657395455]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Helpers.swift"
+  : [1712613698, 657498246]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Schema/Connection+Schema.swift"
+  : [1712613698, 657937119]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Schema/SchemaChanger.swift"
+  : [1712613698, 658084452]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Schema/SchemaDefinitions.swift"
+  : [1712613698, 658215118]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Schema/SchemaReader.swift"
+  : [1712613698, 658352576]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/AggregateFunctions.swift"
+  : [1712613698, 658531950]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/Coding.swift"
+  : [1712613698, 658651283]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/Collation.swift"
+  : [1712613698, 658777282]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/CoreFunctions.swift"
+  : [1712613698, 658879157]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/CustomFunctions.swift"
+  : [1712613698, 659012948]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/DateAndTimeFunctions.swift"
+  : [1712613698, 659118489]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/Expression.swift"
+  : [1712613698, 659238656]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/Operators.swift"
+  : [1712613698, 659401530]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/Query+with.swift"
+  : [1712613698, 659635029]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/Query.swift"
+  : [1712613698, 659796362]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/Schema.swift"
+  : [1712613698, 659941903]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/Setter.swift"
+  : [1712613698, 660118485]
+  ? "/Users/james/Library/Developer/Xcode/DerivedData/COMP3097_ShoppingList_Group2-bqzmabvynfalllgivacbwtmggere/SourcePackages/checkouts/SQLite.swift/Sources/SQLite/Typed/WindowFunctions.swift"
+  : [1712613698, 660235902]
