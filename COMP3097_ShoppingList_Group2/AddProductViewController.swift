@@ -65,12 +65,14 @@ class AddProductViewController: UIViewController {
             if db.addProduct(listID: listID, productName: name, productCategory: category, productPrice: priceValue) {
                 print("Product Added")
                 
-                showAlert(message: "\(productName) has been added successfuly into \(listName)", title: "Product Added")
-                
-                // Reset text fields
-                productName.text = ""
-                productCategory.text = ""
-                productPrice.text = ""
+                if let name = productName.text, let listName = listName{
+                    //showAlert(message: "\(name) has been added successfuly into \(listName)", title: "Product Added")
+                    
+                    // Reset text fields
+                    productName.text = ""
+                    productCategory.text = ""
+                    productPrice.text = ""
+                }
                 
                 
             } else {

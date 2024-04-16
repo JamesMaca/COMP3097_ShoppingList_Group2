@@ -205,9 +205,10 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Add product"/>
                                 <connections>
                                     <action selector="onClick:" destination="zKB-Ta-pxL" eventType="touchUpInside" id="oEv-9b-qFf"/>
+                                    <segue destination="euG-KJ-LUD" kind="show" id="lyC-A3-eGF"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HPe-ab-aug" userLabel="StackViewNavButtons">
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HPe-ab-aug" userLabel="StackViewNavButtons">
                                 <rect key="frame" x="0.0" y="792" width="393" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sv2-8M-3Bb">
@@ -667,7 +668,7 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N1P-kG-PeT" userLabel="StackViewNavButtons">
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N1P-kG-PeT" userLabel="StackViewNavButtons">
                                 <rect key="frame" x="0.0" y="792" width="393" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIn-UF-eXD">
@@ -763,10 +764,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2Jp-tf-52G"/>
+        <segue reference="lyC-A3-eGF"/>
         <segue reference="GDT-LV-IpD"/>
-        <segue reference="wJp-3J-DBL"/>
-        <segue reference="WcW-Ib-PWY"/>
+        <segue reference="1BQ-HK-PZZ"/>
+        <segue reference="tbI-1y-Ctn"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="logo_image" width="93" height="65"/>
