@@ -98,6 +98,8 @@ class ListsTableViewController: UITableViewController {
             
             dest.listID = item.id
             dest.listName = item.name
+            
+            dest.userID = userId
         }
     }
 }

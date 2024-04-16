@@ -25,6 +25,7 @@ struct Item {
 
 class ItemListViewController: UIViewController {
     
+    var userID: Int64! = nil
     var listID: Int64! = nil
     var listName: String! = nil
     var data: [Item] = []
@@ -37,6 +38,8 @@ class ItemListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("ITEMLISTVIEWCONTROLLER: userid = \(userID)")
         
         ItemTableView.delegate = self
         ItemTableView.dataSource = self
@@ -74,6 +77,12 @@ class ItemListViewController: UIViewController {
         if let dest = segue.destination as? AddProductViewController{
             dest.listID = listID
             dest.listName = listName
+            
+            dest.userID = userID
+        }
+        
+        if let dest = segue.destination as? ListsTableViewController{
+            dest.userId = userID
         }
     }
 

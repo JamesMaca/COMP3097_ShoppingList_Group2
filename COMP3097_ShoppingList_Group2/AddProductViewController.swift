@@ -18,11 +18,14 @@ class AddProductViewController: UIViewController {
     
     let db =  Database()
     
+    var userID: Int64!
     var listID: Int64!
     var listName: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("ADDPRODUCTVIEWCONTROLLER: userid = \(userID)")
         
         productPrice.keyboardType = .numberPad
     
@@ -62,10 +65,14 @@ class AddProductViewController: UIViewController {
             if db.addProduct(listID: listID, productName: name, productCategory: category, productPrice: priceValue) {
                 print("Product Added")
                 
+                showAlert(message: "\(productName) has been added successfuly into \(listName)", title: "Product Added")
+                
                 // Reset text fields
                 productName.text = ""
                 productCategory.text = ""
                 productPrice.text = ""
+                
+                
             } else {
                 print("Failed to add product")
             }
@@ -84,6 +91,11 @@ class AddProductViewController: UIViewController {
         if let dest = segue.destination as? ItemListViewController{
             dest.listID = listID
             dest.listName = listName
+            dest.userID = userID
+        }
+        
+        if let dest = segue.destination as? ListsTableViewController {
+            dest.userId = userID
         }
     }
     
