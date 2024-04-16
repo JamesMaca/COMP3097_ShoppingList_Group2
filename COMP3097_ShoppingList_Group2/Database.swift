@@ -169,9 +169,9 @@ class Database{
         
         do {
             let query = listTable.filter(uID == userID).select(listID, listName)
-            for row in try db!.prepare(query) {
-                let id = row[listID]
-                let name = row[listName]
+            for list in try db!.prepare(query) {
+                let id = list[listID]
+                let name = list[listName]
                 lists.append((id: id, name: name))
             }
             return lists // Return the list of tuples containing list ID and name

@@ -10,13 +10,14 @@ import UIKit
 
 class ItemTableViewCell: UITableViewCell{
     
+    // Label Elements that is in the cell
     @IBOutlet weak var itemName: UILabel!
     @IBOutlet weak var itemCategory: UILabel!
     @IBOutlet weak var itemPrice: UILabel!
     
 }
 
-
+// Structure of the data 'Item' with properties for its name, category, price
 struct Item {
     let name: String
     let category: String
@@ -40,8 +41,6 @@ class ItemListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("ITEMLISTVIEWCONTROLLER: userid = \(userID)")
-        
         ItemTableView.delegate = self
         ItemTableView.dataSource = self
         
@@ -63,12 +62,14 @@ class ItemListViewController: UIViewController {
                 
                 let item = Item(name: product.name, category: product.category, price: product.price)
                 
+                // while fetching the items of the list, the price of each item is added to get the total
                 priceValue += item.price
                 
                 data.append(item)
             }
         }
         
+        // formatted the price to always show 2 decimal digits
         let stringPriceValue = String(format: "Total Price: $%.2f", priceValue)
         totalPrice.text = stringPriceValue
     }
@@ -99,11 +100,14 @@ extension ItemListViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = ItemTableView.dequeueReusableCell(withIdentifier: "itemCell", for: indexPath) as! ItemTableViewCell
         
-        
+        // stores the item information from the data
         let item = data[indexPath.row]
         
+        // format the price to always have 2 decimal digit
         let strPrice = String(format: "%.2f",item.price)
         
+        
+        // display the stored information to all the labels in the cell
         cell.itemName.text = item.name
         cell.itemCategory.text = item.category
         cell.itemPrice.text = "$\(strPrice)"

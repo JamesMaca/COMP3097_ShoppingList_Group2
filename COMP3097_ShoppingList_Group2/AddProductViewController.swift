@@ -36,26 +36,25 @@ class AddProductViewController: UIViewController {
     @IBAction func onClick(_ sender: Any) {
         print("Add Button Clicked")
         
+        // checks if the name textfield is empty
         guard let name = productName.text, !name.isEmpty else{
             showAlert(message: "Name is required",title: "Error")
             return
         }
         
+        // checks if the category textfield is empty
         guard let category = productCategory.text, !category.isEmpty else{
             showAlert(message: "Category is required",title: "Error")
             return
         }
         
-        guard let category = productCategory.text, !category.isEmpty else{
-            showAlert(message: "Category is required",title: "Error")
-            return
-        }
-        
+        // checks if the price textfield is empty
         guard let price = productPrice.text, !price.isEmpty else{
             showAlert(message: "Price is required",title: "Error")
             return
         }
         
+        // checks if the price input can be converted to double
         guard let priceValue = Double(price) else {
             showAlert(message: "Price should be a numerical value",title: "Error")
             return
@@ -82,6 +81,7 @@ class AddProductViewController: UIViewController {
         }
     }
     
+    // displays an alert with appropriate title and message to provide user some information based on actions the user did
     func showAlert(message: String, title: String) {
             let alert = UIAlertController(title: "\(title)", message: message, preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
