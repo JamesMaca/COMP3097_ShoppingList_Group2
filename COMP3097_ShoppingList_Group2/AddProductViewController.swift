@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class AddProductViewController: UIViewController {
     
     @IBOutlet weak var productName: UITextField!
@@ -25,8 +26,6 @@ class AddProductViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("ADDPRODUCTVIEWCONTROLLER: userid = \(userID)")
         
         productPrice.keyboardType = .numberPad
     
@@ -65,15 +64,10 @@ class AddProductViewController: UIViewController {
             if db.addProduct(listID: listID, productName: name, productCategory: category, productPrice: priceValue) {
                 print("Product Added")
                 
-                if let name = productName.text, let listName = listName{
-                    //showAlert(message: "\(name) has been added successfuly into \(listName)", title: "Product Added")
-                    
-                    // Reset text fields
-                    productName.text = ""
-                    productCategory.text = ""
-                    productPrice.text = ""
-                }
-                
+                // Reset text fields
+                productName.text = ""
+                productCategory.text = ""
+                productPrice.text = ""
                 
             } else {
                 print("Failed to add product")
@@ -82,6 +76,7 @@ class AddProductViewController: UIViewController {
             print("listID is nil")
         }
     }
+
     
     // displays an alert with appropriate title and message to provide user some information based on actions the user did
     func showAlert(message: String, title: String) {
@@ -95,10 +90,6 @@ class AddProductViewController: UIViewController {
             dest.listID = listID
             dest.listName = listName
             dest.userID = userID
-        }
-        
-        if let dest = segue.destination as? ListsTableViewController {
-            dest.userId = userID
         }
     }
     

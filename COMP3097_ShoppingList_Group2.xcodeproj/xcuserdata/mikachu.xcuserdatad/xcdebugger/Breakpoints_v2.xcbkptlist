@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "695FDB3F-DFAB-4266-B8A7-0884F540DA91"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53108273-E7FC-4CB0-9D15-FF3F5DC86911"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "COMP3097_ShoppingList_Group2/ItemListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC7BB710-A860-439A-A406-EDF57D34FBEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "COMP3097_ShoppingList_Group2/NewListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "NewListViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CC7BB710-A860-439A-A406-EDF57D34FBEE - 6cd3ca92f084e78f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "COMP3097_ShoppingList_Group2.NewListViewController.newListName.getter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "COMP3097_ShoppingList_Group2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikachu/Documents/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/NewListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "CC7BB710-A860-439A-A406-EDF57D34FBEE - 11eb9fdaf5331fb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "COMP3097_ShoppingList_Group2.NewListViewController.newListName.setter : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "COMP3097_ShoppingList_Group2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikachu/Documents/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/NewListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "CC7BB710-A860-439A-A406-EDF57D34FBEE - f6b4065189a13700"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "COMP3097_ShoppingList_Group2.NewListViewController.newListName.modify : Swift.Optional&lt;__C.UITextField&gt;"
+                  moduleName = "COMP3097_ShoppingList_Group2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikachu/Documents/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/NewListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "CC7BB710-A860-439A-A406-EDF57D34FBEE - c0cbfd761e7e0845"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "COMP3097_ShoppingList_Group2.NewListViewController.newListName.modify : Swift.Optional&lt;__C.UITextField&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "COMP3097_ShoppingList_Group2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikachu/Documents/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/NewListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "CC7BB710-A860-439A-A406-EDF57D34FBEE - 1ffba9ba8afdb558"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "COMP3097_ShoppingList_Group2.NewListViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; COMP3097_ShoppingList_Group2.NewListViewController"
+                  moduleName = "COMP3097_ShoppingList_Group2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikachu/Documents/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/NewListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "233">
+               </Location>
+               <Location
+                  uuid = "CC7BB710-A860-439A-A406-EDF57D34FBEE - 846a356fddb01b1a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "COMP3097_ShoppingList_Group2.NewListViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;COMP3097_ShoppingList_Group2.NewListViewController&gt;"
+                  moduleName = "COMP3097_ShoppingList_Group2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikachu/Documents/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/NewListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "190">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75DBF87F-1554-4DA3-95B4-2A465156854B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "COMP3097_ShoppingList_Group2/NewListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "createList(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75DBF87F-1554-4DA3-95B4-2A465156854B - 6f9cf823a5179e8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "COMP3097_ShoppingList_Group2.NewListViewController.createList(__C.UIButton) -&gt; ()"
+                  moduleName = "COMP3097_ShoppingList_Group2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikachu/Documents/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/NewListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1028">
+               </Location>
+               <Location
+                  uuid = "75DBF87F-1554-4DA3-95B4-2A465156854B - 6f9cf823a5179ead"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "COMP3097_ShoppingList_Group2.NewListViewController.createList(__C.UIButton) -&gt; ()"
+                  moduleName = "COMP3097_ShoppingList_Group2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikachu/Documents/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/NewListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1022">
+               </Location>
+               <Location
+                  uuid = "75DBF87F-1554-4DA3-95B4-2A465156854B - 3cea9e4591b97874"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in COMP3097_ShoppingList_Group2.NewListViewController.createList(__C.UIButton) -&gt; ()"
+                  moduleName = "COMP3097_ShoppingList_Group2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mikachu/Documents/COMP3097_ShoppingList_Group2/COMP3097_ShoppingList_Group2/NewListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

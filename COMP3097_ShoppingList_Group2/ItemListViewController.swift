@@ -38,8 +38,16 @@ class ItemListViewController: UIViewController {
     @IBOutlet weak var listNameLabel: UILabel!
     @IBOutlet weak var ItemTableView: UITableView!
     
+    override func viewWillAppear(_ animated: Bool) {
+        print("Item List Screen Appeared !")
+        fetchItemFromList(listId: listID)
+        ItemTableView.reloadData()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("DEBUG: ItemListViewController")
         
         ItemTableView.delegate = self
         ItemTableView.dataSource = self
@@ -48,15 +56,17 @@ class ItemListViewController: UIViewController {
             print("list name: \(listName)")
             listNameLabel.text = listName
         }
-        
-        if let listID = listID {
-                fetchItemFromList(listId: listID)
-        } else {
-            print("listID is nil")
-        }
     }
     
-    private func fetchItemFromList(listId: Int64){
+    func test(){
+        print("I am at ItemListViewController triggered from AddProductViewController")
+    }
+    
+    func fetchItemFromList(listId: Int64){
+        //resets the price value to 0
+        priceValue = 0
+        //resets the data to empty
+        data.removeAll()
         if let products = db.getProductsForList(listID: listId) {
             for product in products {
                 
@@ -108,14 +118,9 @@ extension ItemListViewController: UITableViewDataSource{
         
         
         // display the stored information to all the labels in the cell
-        /*cell.itemName.text = item.name
+        cell.itemName.text = item.name
         cell.itemCategory.text = item.category
-        cell.itemPrice.text = "$\(strPrice)"*/
-        
-        cell.itemName.text = "Test"
-        cell.itemCategory.text = "test"
-        cell.itemPrice.text = "Test"
-
+        cell.itemPrice.text = "$\(strPrice)"
         
         return cell;
     }
